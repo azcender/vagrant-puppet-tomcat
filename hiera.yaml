@@ -5,8 +5,8 @@
   :datadir: /vagrant/puppet-r10k-hiera
 
 :hierarchy:
-  - "role/%{::role}"
   - "role/%{::role}/%{::role_group}"
-  - "role/%{::role}/%{::application}"
+  - "role/application/%{::application}"
+  - "role/%{::role}"
   - "tier/%{::tier}"
   - common

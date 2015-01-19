@@ -18,9 +18,9 @@ Vagrant.configure(2) do |config|
     puppet.facter = {
       "puppet_path" => "/etc/puppet",
       "role"        => 'tomcat',
-      "groupid"     => 'org.apache.tomcat',
+#      "groupid"     => 'org.apache.tomcat',
       "application" => 'sample',
-      "version"     => '1.0.0',
+#      "version"     => '1.0.0',
     }
 
     puppet.module_path = "puppet-r10k-environment/modules"
