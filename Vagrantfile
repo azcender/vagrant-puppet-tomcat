@@ -23,6 +23,7 @@ Vagrant.configure(2) do |config|
 #      "version"     => '1.0.0',
     }
 
+#    puppet.options = "--verbose --debug"
     puppet.module_path = "puppet-r10k-environment/modules"
     puppet.hiera_config_path = "hiera.yaml"
   end
