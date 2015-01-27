@@ -1,3 +1,6 @@
 [submodule "puppet-r10k-hiera"]
 	path = puppet-r10k-hiera
 	url = ssh://bjbelanger@teamforge.fs.usda.gov:29418/puppet-r10k-hiera
+[submodule "puppet-r10k-environments"]
+	path = puppet-r10k-environments
+	url = ssh://bjbelanger@teamforge.fs.usda.gov:29418/puppet-r10k-environments
