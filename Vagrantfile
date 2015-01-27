@@ -16,11 +16,8 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "puppet" do |puppet|
     puppet.facter = {
-      "puppet_path" => "/etc/puppet",
       "role"        => 'tomcat',
-#      "groupid"     => 'org.apache.tomcat',
       "application" => 'sample',
-#      "version"     => '1.0.0',
     }
 
 #    puppet.options = "--verbose --debug"
