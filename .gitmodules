@@ -1,6 +1,3 @@
-[submodule "puppet-r10k-environment"]
-	path = puppet-r10k-environment
-	url = git@github.com:azcender/puppet-r10k-environment.git
 [submodule "puppet-r10k-hiera"]
 	path = puppet-r10k-hiera
 	url = git@github.com:azcender/puppet-r10k-hiera.git
